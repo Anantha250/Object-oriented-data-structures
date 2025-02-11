@@ -6,7 +6,7 @@ def fgvSearch(l:list,key:int,maxk:int=10e6) -> str:
     return fgvSearch(l,key+1,maxk)
 
 def main():
-    inp = input("Enter Input : ").split('/')
+    inp = input("Enter Input :").split('/')
     l,key = list(map(int,inp[0].split())), \
         list(map(int,inp[1].split()))
     for i in key:
