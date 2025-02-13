@@ -8,7 +8,7 @@ def bubblesortRecursive(list):
     
     print(cnp)
 
-inp = list(map(int,input("Enter Input :").split()))
+inp = list(map(int,input("Enter Input:").split()))
 bubblesortRecursive(inp)
 print(inp)
     
