@@ -57,7 +57,7 @@ class Hash:
             idx = (b_idx+(coll**2))%self.tSize 
         self.duplTable.append(val)
         if len(self.duplTable)*100/self.tSize >= self.threshold:
-            print("****** Data over threshold - Rehash !!! ******")
+            print("****** Data over threshold - Rehash !!!******")
             self.rehashResize() or self.rehashInsert()
         else:
             self.table[idx] = Data(val)
