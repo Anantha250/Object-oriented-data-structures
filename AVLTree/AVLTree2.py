@@ -50,7 +50,7 @@ class AVLTree:
 
         # Left rotate  left > right
         if balace < -1 :
-            print("Not Balance, Rebalance!")
+            print("Not Balance Rebalance!")
             if data < root.left.data:
                 return AVLTree.rotateRight(root)
             else:
